@@ -1,0 +1,88 @@
+/*
+ * Copyright (c) 2016 Guilin Ouyang. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+//Number Keyboard
+"NumPad_CharBoard" = "Char";
+
+"NumPad_Pause" = "Pause";
+"NumPad_Escape" = "Esc";
+"NumPad_Delete" = "Del";
+"NumPad_Mode" = "Mode";
+"NumPad_Space" = "Space";
+"NumPad_Return" = "Return";
+"NumPad_Backspace" = "Back";
+"NumPad_Reset" = "Reset";
+"NumPad_English" = "ABC";
+
+"NumPad_Easy" = "Easy";
+"NumPad_Normal" = "Normal";
+"NumPad_Hard" = "Hard";
+"NumPad_Sound_OffOn" = "Sound Off/On";
+
+"NumPad_Help" = "?";
+
+//Menu Table
+"AppHelper_Section" = "HeInput";
+"Paper_Section" = "Input Paper";
+"StartUp_Section" = "Start Up";
+"StepByStep_Section" = "Step By Step";
+"WordEncode_Section" = "Encode Word";
+"PhraseEncode_Section" = "Encode Phrase";
+"Article_Section" = "Type Article";
+
+"MainMenu_UserGuide" = "User Guide";
+"MainMenu_UserGuide_Sub" = "System Guide";
+
+"Social_RateApp" = "Please Rate Me";
+"Social_RateApp_Sub" = "Sharing your thoughts on AppStore!";
+
+"Social_EmailMe" = "Email Developer";
+"Social_EmailMe_Sub" = "Send the developer your comments";
+
+"HeApp_ViewTitle" = "HeChinese Apps";
+
+//Input menu
+
+"menu_menu" = "Menu";
+"menu_repeat" = "Repeat";
+"menu_punctuation" = "Punctuation";
+"menu_math_symbol" = "Math Symbol";
+"menu_number" = "Number";
+"menu_english_char" = "English Char";
+
+"menu_he_chinese_input" = "HeInput";
+"menu_pinyin_input" = "PinYin";
+"menu_symbol_input" = "Symbol";
+"menu_number_input" = "Number";
+"menu_he_english_input" = "HeEnglish Input";
+
+"menu_english_input" = "English";
+
+"menu_use_simplified" = "Set to Simplified Chinese";
+"menu_use_traditional" = "Set to Traditional Chinese";
+
+"menu_use_small_collection" = "Set to Small Collection";
+"menu_use_big_collection" = "Set to Big Collection";
+
+"menu_turn_on_pinyin_prompt" = "Set PinYin Prompt On";
+"menu_turn_off_pinyin_prompt" = "Set PinYin Prompt Off";
+
+"menu_save_setting" = "*Save Settings to System*";
+
+"menu_numpad" = "Set to 4x5 numpad";
+"menu_big_number_keyboard" = "Set to 6x6 keyboard";
+"menu_big_char_keyboard" = "Set to 6x6 keyboard";
+

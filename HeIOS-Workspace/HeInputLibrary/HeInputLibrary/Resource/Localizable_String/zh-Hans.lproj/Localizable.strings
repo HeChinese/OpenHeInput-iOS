@@ -1,0 +1,91 @@
+/*
+ * Copyright (c) 2016 Guilin Ouyang. All rights reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+//Number Keyboard
+"NumPad_CharBoard" = "字母";
+
+"NumPad_Pause" = "暂停";
+"NumPad_Escape" = "撤收"; //"返回";
+"NumPad_Delete" = "删除";
+"NumPad_Mode" = "模式";
+"NumPad_Space" = "空格";
+"NumPad_Return" = "回车";
+"NumPad_Backspace" = "后退";
+"NumPad_Reset" = "归零";
+"NumPad_Sound_OffOn" = "声音 关/开";
+"NumPad_English" = "英文";
+
+"NumPad_Easy" = "起步";
+"NumPad_Normal" = "提高";
+"NumPad_Hard" = "熟练";
+
+"NumPad_Help" = "?";
+
+//Menu Table
+"MainMenu" = "和码中文输入";
+
+"AppHelper_Section" = "和码中文输入";
+"Paper_Section" = "稿纸";
+"StartUp_Section" = "和码起步";
+"StepByStep_Section" = "分步练习";
+"WordEncode_Section" = "单字练习";
+"PhraseEncode_Section" = "词组练习";
+"Article_Section" = "文章输入";
+
+"PaperSection" = "Input Paper";
+"TrainningSection" = "HeInput Training";
+"Menu_Paper" = "Paper";
+
+"MainMenu_UserGuide" = "用户指南";
+"MainMenu_UserGuide_Sub" = "说明书";
+
+"Social_RateApp" = "多谢点评！";
+"Social_RateApp_Sub" = "在AppStore上分享你的观点";
+
+"Social_EmailMe" = "给开发者去信";
+"Social_EmailMe_Sub" = "向软件开发者提建议";
+
+"HeApp_ViewTitle" = "《和码字形技术》系列软件";
+
+//Input Menu
+"menu_menu" = "选项";
+"menu_repeat" = "重复";
+"menu_punctuation" = "标点符号";
+"menu_math_symbol" = "数学符号";
+"menu_number" = "数字";
+"menu_english_char" = "英文字母";
+
+"menu_he_chinese_input" = "和码中文";
+"menu_pinyin_input" = "拼音查码";
+"menu_symbol_input" = "符号";
+"menu_number_input" = "数字";
+"menu_he_english_input" = "和码英语输入";
+"menu_english_input" = "英语输入";
+
+"menu_use_simplified" = "设置为简体字词输入";
+"menu_use_traditional" = "设置为繁体字词输入";
+
+"menu_use_small_collection" = "设置采用小字库";
+"menu_use_big_collection" = "设置采用大字库";
+
+"menu_turn_on_pinyin_prompt" = "设置打开拼音提示";
+"menu_turn_off_pinyin_prompt" = "设置关掉拼音提示";
+
+"menu_save_setting" = "*保存当前设置至系统*";
+
+"menu_numpad" = "设置采用4x5数字小键盘";
+"menu_big_number_keyboard" = "设置采用6x6数字大键盘";
+"menu_big_char_keyboard" = "设置采用6x6字母大键盘";

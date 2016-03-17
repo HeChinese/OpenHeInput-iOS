@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		306282E81C9A443500E81E3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 306282E71C9A443500E81E3F /* main.m */; };
+		306282EB1C9A443500E81E3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 306282EA1C9A443500E81E3F /* AppDelegate.m */; };
+		306282EE1C9A443500E81E3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306282ED1C9A443500E81E3F /* ViewController.m */; };
+		306282F11C9A443500E81E3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306282EF1C9A443500E81E3F /* Main.storyboard */; };
+		306282F31C9A443500E81E3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 306282F21C9A443500E81E3F /* Assets.xcassets */; };
+		306282F61C9A443500E81E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 306282F41C9A443500E81E3F /* LaunchScreen.storyboard */; };
+		3062839F1C9A4B4200E81E3F /* HeKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 306283971C9A4B4200E81E3F /* HeKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		306283A81C9A4DA700E81E3F /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 306283A71C9A4DA700E81E3F /* libsqlite3.tbd */; };
+		306283AA1C9A4DB000E81E3F /* libHeInputLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 306283A91C9A4DB000E81E3F /* libHeInputLibrary.a */; };
+		306283B21C9A4E2F00E81E3F /* hema_db.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 306283AD1C9A4E2F00E81E3F /* hema_db.sqlite */; };
+		306283B31C9A4E2F00E81E3F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 306283AF1C9A4E2F00E81E3F /* Localizable.strings */; };
+		306284191C9AD17800E81E3F /* HeKeyboard4x6-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306284101C9AD17800E81E3F /* HeKeyboard4x6-iPad.xib */; };
+		3062841A1C9AD17800E81E3F /* HeKeyboard4x6-iPhone4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306284111C9AD17800E81E3F /* HeKeyboard4x6-iPhone4.xib */; };
+		3062841B1C9AD17800E81E3F /* HeKeyboard4x6-iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306284121C9AD17800E81E3F /* HeKeyboard4x6-iPhone5.xib */; };
+		3062841C1C9AD17800E81E3F /* HeKeyboard4x6-iPhone6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306284131C9AD17800E81E3F /* HeKeyboard4x6-iPhone6.xib */; };
+		3062841D1C9AD17800E81E3F /* HeKeyboard4x6.m in Sources */ = {isa = PBXBuildFile; fileRef = 306284151C9AD17800E81E3F /* HeKeyboard4x6.m */; };
+		3062841E1C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306284171C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.m */; };
+		3062841F1C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306284181C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.xib */; };
+		306284331C9AD5BE00E81E3F /* HeKeyboard_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306284321C9AD5BE00E81E3F /* HeKeyboard_ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3062839D1C9A4B4200E81E3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 306282DB1C9A443500E81E3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 306283961C9A4B4200E81E3F;
+			remoteInfo = HeKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		306283A31C9A4B4200E81E3F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3062839F1C9A4B4200E81E3F /* HeKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		306282E31C9A443500E81E3F /* OpenHeInput.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenHeInput.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		306282E71C9A443500E81E3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		306282E91C9A443500E81E3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		306282EA1C9A443500E81E3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		306282EC1C9A443500E81E3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		306282ED1C9A443500E81E3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		306282F01C9A443500E81E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		306282F21C9A443500E81E3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		306282F51C9A443500E81E3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		306282F71C9A443500E81E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306283971C9A4B4200E81E3F /* HeKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HeKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3062839C1C9A4B4200E81E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		306283A71C9A4DA700E81E3F /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		306283A91C9A4DB000E81E3F /* libHeInputLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHeInputLibrary.a; path = "../HeInputLibrary/build/Debug-iphoneos/libHeInputLibrary.a"; sourceTree = "<group>"; };
+		306283AD1C9A4E2F00E81E3F /* hema_db.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = hema_db.sqlite; sourceTree = "<group>"; };
+		306283B01C9A4E2F00E81E3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		306283B11C9A4E2F00E81E3F /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		306284101C9AD17800E81E3F /* HeKeyboard4x6-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "HeKeyboard4x6-iPad.xib"; path = "../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/HeKeyboard4x6-iPad.xib"; sourceTree = "<group>"; };
+		306284111C9AD17800E81E3F /* HeKeyboard4x6-iPhone4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "HeKeyboard4x6-iPhone4.xib"; path = "../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/HeKeyboard4x6-iPhone4.xib"; sourceTree = "<group>"; };
+		306284121C9AD17800E81E3F /* HeKeyboard4x6-iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "HeKeyboard4x6-iPhone5.xib"; path = "../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/HeKeyboard4x6-iPhone5.xib"; sourceTree = "<group>"; };
+		306284131C9AD17800E81E3F /* HeKeyboard4x6-iPhone6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "HeKeyboard4x6-iPhone6.xib"; path = "../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/HeKeyboard4x6-iPhone6.xib"; sourceTree = "<group>"; };
+		306284141C9AD17800E81E3F /* HeKeyboard4x6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeKeyboard4x6.h; path = ../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/HeKeyboard4x6.h; sourceTree = "<group>"; };
+		306284151C9AD17800E81E3F /* HeKeyboard4x6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeKeyboard4x6.m; path = ../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/HeKeyboard4x6.m; sourceTree = "<group>"; };
+		306284161C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShuMaAndIndicator_ViewController.h; path = ../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/ShuMaAndIndicator_ViewController.h; sourceTree = "<group>"; };
+		306284171C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShuMaAndIndicator_ViewController.m; path = ../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/ShuMaAndIndicator_ViewController.m; sourceTree = "<group>"; };
+		306284181C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShuMaAndIndicator_ViewController.xib; path = ../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/ShuMaAndIndicator_ViewController.xib; sourceTree = "<group>"; };
+		306284311C9AD5BE00E81E3F /* HeKeyboard_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeKeyboard_ViewController.h; path = ../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/HeKeyboard_ViewController.h; sourceTree = "<group>"; };
+		306284321C9AD5BE00E81E3F /* HeKeyboard_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeKeyboard_ViewController.m; path = ../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/HeKeyboard_ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		306282E01C9A443500E81E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306283941C9A4B4200E81E3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306283AA1C9A4DB000E81E3F /* libHeInputLibrary.a in Frameworks */,
+				306283A81C9A4DA700E81E3F /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		306282DA1C9A443500E81E3F = {
+			isa = PBXGroup;
+			children = (
+				306282E51C9A443500E81E3F /* OpenHeInput */,
+				306283981C9A4B4200E81E3F /* HeKeyboard */,
+				306283C71C9A524500E81E3F /* Frameworks */,
+				306282E41C9A443500E81E3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		306282E41C9A443500E81E3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				306282E31C9A443500E81E3F /* OpenHeInput.app */,
+				306283971C9A4B4200E81E3F /* HeKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		306282E51C9A443500E81E3F /* OpenHeInput */ = {
+			isa = PBXGroup;
+			children = (
+				306282E91C9A443500E81E3F /* AppDelegate.h */,
+				306282EA1C9A443500E81E3F /* AppDelegate.m */,
+				306282EC1C9A443500E81E3F /* ViewController.h */,
+				306282ED1C9A443500E81E3F /* ViewController.m */,
+				306282EF1C9A443500E81E3F /* Main.storyboard */,
+				306282F21C9A443500E81E3F /* Assets.xcassets */,
+				306282F41C9A443500E81E3F /* LaunchScreen.storyboard */,
+				306282F71C9A443500E81E3F /* Info.plist */,
+				306282E61C9A443500E81E3F /* Supporting Files */,
+			);
+			path = OpenHeInput;
+			sourceTree = "<group>";
+		};
+		306282E61C9A443500E81E3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				306282E71C9A443500E81E3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		306283981C9A4B4200E81E3F /* HeKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3062840F1C9AD14700E81E3F /* iOS_HeKeyboard-Link */,
+				306283AB1C9A4DE900E81E3F /* Resource-Link */,
+				3062839C1C9A4B4200E81E3F /* Info.plist */,
+			);
+			path = HeKeyboard;
+			sourceTree = "<group>";
+		};
+		306283AB1C9A4DE900E81E3F /* Resource-Link */ = {
+			isa = PBXGroup;
+			children = (
+				306283AC1C9A4E2F00E81E3F /* Database */,
+				306283AE1C9A4E2F00E81E3F /* Localizable_String */,
+			);
+			name = "Resource-Link";
+			sourceTree = "<group>";
+		};
+		306283AC1C9A4E2F00E81E3F /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				306283AD1C9A4E2F00E81E3F /* hema_db.sqlite */,
+			);
+			name = Database;
+			path = ../../HeInputLibrary/HeInputLibrary/Resource/Database;
+			sourceTree = "<group>";
+		};
+		306283AE1C9A4E2F00E81E3F /* Localizable_String */ = {
+			isa = PBXGroup;
+			children = (
+				306283AF1C9A4E2F00E81E3F /* Localizable.strings */,
+			);
+			name = Localizable_String;
+			path = ../../HeInputLibrary/HeInputLibrary/Resource/Localizable_String;
+			sourceTree = "<group>";
+		};
+		306283C71C9A524500E81E3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				306283A91C9A4DB000E81E3F /* libHeInputLibrary.a */,
+				306283A71C9A4DA700E81E3F /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3062840F1C9AD14700E81E3F /* iOS_HeKeyboard-Link */ = {
+			isa = PBXGroup;
+			children = (
+				306284311C9AD5BE00E81E3F /* HeKeyboard_ViewController.h */,
+				306284321C9AD5BE00E81E3F /* HeKeyboard_ViewController.m */,
+				306284101C9AD17800E81E3F /* HeKeyboard4x6-iPad.xib */,
+				306284111C9AD17800E81E3F /* HeKeyboard4x6-iPhone4.xib */,
+				306284121C9AD17800E81E3F /* HeKeyboard4x6-iPhone5.xib */,
+				306284131C9AD17800E81E3F /* HeKeyboard4x6-iPhone6.xib */,
+				306284141C9AD17800E81E3F /* HeKeyboard4x6.h */,
+				306284151C9AD17800E81E3F /* HeKeyboard4x6.m */,
+				306284161C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.h */,
+				306284171C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.m */,
+				306284181C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.xib */,
+			);
+			name = "iOS_HeKeyboard-Link";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		306282E21C9A443500E81E3F /* OpenHeInput */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306282FA1C9A443500E81E3F /* Build configuration list for PBXNativeTarget "OpenHeInput" */;
+			buildPhases = (
+				306282DF1C9A443500E81E3F /* Sources */,
+				306282E01C9A443500E81E3F /* Frameworks */,
+				306282E11C9A443500E81E3F /* Resources */,
+				306283A31C9A4B4200E81E3F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3062839E1C9A4B4200E81E3F /* PBXTargetDependency */,
+			);
+			name = OpenHeInput;
+			productName = OpenHeInput;
+			productReference = 306282E31C9A443500E81E3F /* OpenHeInput.app */;
+			productType = "com.apple.product-type.application";
+		};
+		306283961C9A4B4200E81E3F /* HeKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 306283A01C9A4B4200E81E3F /* Build configuration list for PBXNativeTarget "HeKeyboard" */;
+			buildPhases = (
+				306283931C9A4B4200E81E3F /* Sources */,
+				306283941C9A4B4200E81E3F /* Frameworks */,
+				306283951C9A4B4200E81E3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeKeyboard;
+			productName = HeKeyboard;
+			productReference = 306283971C9A4B4200E81E3F /* HeKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		306282DB1C9A443500E81E3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Guilin Ouyang";
+				TargetAttributes = {
+					306282E21C9A443500E81E3F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					306283961C9A4B4200E81E3F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 306282DE1C9A443500E81E3F /* Build configuration list for PBXProject "OpenHeInput" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 306282DA1C9A443500E81E3F;
+			productRefGroup = 306282E41C9A443500E81E3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				306282E21C9A443500E81E3F /* OpenHeInput */,
+				306283961C9A4B4200E81E3F /* HeKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		306282E11C9A443500E81E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306282F61C9A443500E81E3F /* LaunchScreen.storyboard in Resources */,
+				306282F31C9A443500E81E3F /* Assets.xcassets in Resources */,
+				306282F11C9A443500E81E3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306283951C9A4B4200E81E3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306283B21C9A4E2F00E81E3F /* hema_db.sqlite in Resources */,
+				306284191C9AD17800E81E3F /* HeKeyboard4x6-iPad.xib in Resources */,
+				3062841A1C9AD17800E81E3F /* HeKeyboard4x6-iPhone4.xib in Resources */,
+				3062841B1C9AD17800E81E3F /* HeKeyboard4x6-iPhone5.xib in Resources */,
+				3062841F1C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.xib in Resources */,
+				3062841C1C9AD17800E81E3F /* HeKeyboard4x6-iPhone6.xib in Resources */,
+				306283B31C9A4E2F00E81E3F /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		306282DF1C9A443500E81E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				306282EE1C9A443500E81E3F /* ViewController.m in Sources */,
+				306282EB1C9A443500E81E3F /* AppDelegate.m in Sources */,
+				306282E81C9A443500E81E3F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		306283931C9A4B4200E81E3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3062841D1C9AD17800E81E3F /* HeKeyboard4x6.m in Sources */,
+				3062841E1C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.m in Sources */,
+				306284331C9AD5BE00E81E3F /* HeKeyboard_ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3062839E1C9A4B4200E81E3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 306283961C9A4B4200E81E3F /* HeKeyboard */;
+			targetProxy = 3062839D1C9A4B4200E81E3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		306282EF1C9A443500E81E3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306282F01C9A443500E81E3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		306282F41C9A443500E81E3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306282F51C9A443500E81E3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		306283AF1C9A4E2F00E81E3F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				306283B01C9A4E2F00E81E3F /* en */,
+				306283B11C9A4E2F00E81E3F /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		306282F81C9A443500E81E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		306282F91C9A443500E81E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		306282FB1C9A443500E81E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenHeInput/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.HeZi.iOS.OpenHeInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		306282FC1C9A443500E81E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OpenHeInput/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.HeZi.iOS.OpenHeInput;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		306283A11C9A4B4200E81E3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.HeZi.iOS.OpenHeInput.HeKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		306283A21C9A4B4200E81E3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.HeZi.iOS.OpenHeInput.HeKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		306282DE1C9A443500E81E3F /* Build configuration list for PBXProject "OpenHeInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306282F81C9A443500E81E3F /* Debug */,
+				306282F91C9A443500E81E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306282FA1C9A443500E81E3F /* Build configuration list for PBXNativeTarget "OpenHeInput" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306282FB1C9A443500E81E3F /* Debug */,
+				306282FC1C9A443500E81E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		306283A01C9A4B4200E81E3F /* Build configuration list for PBXNativeTarget "HeKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				306283A11C9A4B4200E81E3F /* Debug */,
+				306283A21C9A4B4200E81E3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 306282DB1C9A443500E81E3F /* Project object */;
+}

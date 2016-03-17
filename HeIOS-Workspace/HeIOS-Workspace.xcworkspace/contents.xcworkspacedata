@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Dev-Doc/Dev-Doc.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HeInput/HeInput.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OpenHeInput/OpenHeInput.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HeInputLibrary/HeInputLibrary.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HeLibrary/HeLibrary.xcodeproj">
+   </FileRef>
+</Workspace>

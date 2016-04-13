@@ -18,11 +18,13 @@ Input features include:
 5. Convenient switch between HeInput/PinYin/English/Number input.
 
 Setting steps: 
+
 1. System requirement: iOS 8.0+; 
 2. Settings > General > Keyboard > Keyboards > Add a New Keyboard;
 3. Select \"OpenHeInput\".
 
 输入法设置：
+
 1. 系统要求: iOS 8.0+； 
 2. 设置 > 通用 > 键盘 > 键盘 > 添加新键盘；
 3. 选择 \"OpenHeInput\"。

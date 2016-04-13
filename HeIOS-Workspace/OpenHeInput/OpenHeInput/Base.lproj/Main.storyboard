@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +18,67 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open HeInput" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cTe-d6-NcL">
+                                <rect key="frame" x="222" y="80" width="155.5" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cTe-d6-NcL" secondAttribute="height" multiplier="215:47" id="brP-Gi-alq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Configuration infomation" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PZc-08-HF4">
+                                <rect key="frame" x="40" y="161" width="520" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="1my-YM-yHa"/>
+                                    <constraint firstAttribute="height" constant="200" id="Mf6-8O-mnP"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3w-ra-3Pg">
+                                <rect key="frame" x="196" y="394" width="208" height="35"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="→ HeInput Open Source"/>
+                                <connections>
+                                    <action selector="goToHeInputOpenSource:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7D-hi-iCF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTn-vK-9KN">
+                                <rect key="frame" x="229.5" y="458" width="141" height="34"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="→  www.HeZi.net"/>
+                                <connections>
+                                    <action selector="openHeZiWebSite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RIc-F9-1TE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="cTe-d6-NcL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ais-gv-9Pz"/>
+                            <constraint firstItem="cTe-d6-NcL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="60" id="Aru-a9-g3d"/>
+                            <constraint firstItem="rTn-vK-9KN" firstAttribute="top" secondItem="F3w-ra-3Pg" secondAttribute="bottom" constant="29" id="Cpf-me-VVa"/>
+                            <constraint firstItem="F3w-ra-3Pg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V7z-yf-meZ"/>
+                            <constraint firstItem="PZc-08-HF4" firstAttribute="top" secondItem="cTe-d6-NcL" secondAttribute="bottom" constant="47" id="aHn-fT-Zxg"/>
+                            <constraint firstItem="PZc-08-HF4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kmp-ZN-3Fw"/>
+                            <constraint firstItem="rTn-vK-9KN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lx5-Sj-Mlh"/>
+                            <constraint firstItem="PZc-08-HF4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="neW-ab-lbV"/>
+                            <constraint firstItem="F3w-ra-3Pg" firstAttribute="top" secondItem="PZc-08-HF4" secondAttribute="bottom" constant="33" id="ybZ-n5-lb7"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="heInput_title" destination="cTe-d6-NcL" id="SSB-V7-wdd"/>
+                        <outlet property="setting_steps" destination="PZc-08-HF4" id="r47-AO-Qha"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="368"/>
         </scene>
     </scenes>
 </document>

@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *heInput_title;
+@property (weak, nonatomic) IBOutlet UITextView *setting_steps;
 
+- (IBAction)goToHeInputOpenSource:(id)sender;
+- (IBAction)openHeZiWebSite:(id)sender;
 @end
 

@@ -26,6 +26,7 @@
 		3062841E1C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306284171C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.m */; };
 		3062841F1C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 306284181C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.xib */; };
 		306284331C9AD5BE00E81E3F /* HeKeyboard_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 306284321C9AD5BE00E81E3F /* HeKeyboard_ViewController.m */; };
+		BBB6729F1CBEE91700A0BEB7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBB672A11CBEE91700A0BEB7 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		306284181C9AD17800E81E3F /* ShuMaAndIndicator_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ShuMaAndIndicator_ViewController.xib; path = ../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/ShuMaAndIndicator_ViewController.xib; sourceTree = "<group>"; };
 		306284311C9AD5BE00E81E3F /* HeKeyboard_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeKeyboard_ViewController.h; path = ../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/HeKeyboard_ViewController.h; sourceTree = "<group>"; };
 		306284321C9AD5BE00E81E3F /* HeKeyboard_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeKeyboard_ViewController.m; path = ../../HeInputLibrary/HeInputLibrary/iOS_HeKeyboard/HeKeyboard_ViewController.m; sourceTree = "<group>"; };
+		BBB672A01CBEE91700A0BEB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BBB672A21CBEE91A00A0BEB7 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,7 @@
 				306282F41C9A443500E81E3F /* LaunchScreen.storyboard */,
 				306282F71C9A443500E81E3F /* Info.plist */,
 				306282E61C9A443500E81E3F /* Supporting Files */,
+				BBB672A11CBEE91700A0BEB7 /* Localizable.strings */,
 			);
 			path = OpenHeInput;
 			sourceTree = "<group>";
@@ -292,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				306282F61C9A443500E81E3F /* LaunchScreen.storyboard in Resources */,
+				BBB6729F1CBEE91700A0BEB7 /* Localizable.strings in Resources */,
 				306282F31C9A443500E81E3F /* Assets.xcassets in Resources */,
 				306282F11C9A443500E81E3F /* Main.storyboard in Resources */,
 			);
@@ -366,6 +371,15 @@
 			children = (
 				306283B01C9A4E2F00E81E3F /* en */,
 				306283B11C9A4E2F00E81E3F /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BBB672A11CBEE91700A0BEB7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBB672A01CBEE91700A0BEB7 /* Base */,
+				BBB672A21CBEE91A00A0BEB7 /* zh-Hans */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";

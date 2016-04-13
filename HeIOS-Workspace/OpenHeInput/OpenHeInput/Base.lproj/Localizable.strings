@@ -1,0 +1,10 @@
+/* 
+  localizable.strings
+  OpenHeInput
+
+  Created by Guilin Ouyang on 2016-04-13.
+  Copyright © 2016 Guilin Ouyang. All rights reserved.
+*/
+
+"Input_Title" = "Open HeInput";
+"Setting_Step" = "Setting steps: \n\n1. System requirement: iOS 8.0+; \n\n2. Settings > General > Keyboard > Keyboards > Add a New Keyboard;\n\n3. Select \"OpenHeInput\".";

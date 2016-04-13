@@ -1,0 +1,10 @@
+/* 
+  localizable.strings
+  OpenHeInput
+
+  Created by Guilin Ouyang on 2016-04-13.
+  Copyright © 2016 Guilin Ouyang. All rights reserved.
+*/
+
+"Input_Title" = "开源和码输入软件";
+"Setting_Step" = "输入法设置：\n\n1. 系统要求: iOS 8.0+； \n\n2. 设置 > 通用 > 键盘 > 键盘 > 添加新键盘；\n\n3. 选择 \"OpenHeInput\"。";

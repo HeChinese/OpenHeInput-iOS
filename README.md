@@ -1,6 +1,10 @@
 # OpenHeInput-iOS
 
-Open Source HeInput project for iOS (iPhone/iPad) using Objective C.
+'He' is Chinese word 和's PinYin(Sound), it means 'and' or 'with'.
+
+'HeInput'('和码' in Chinese) is a name of famous Chinese input mathod. 
+
+OpenHeInput-iOS is open source HeInput project for iOS (iPhone/iPad) using Objective C.
 
 This application is based on iOS 8.0+ App Extension custom keyboard.
 
